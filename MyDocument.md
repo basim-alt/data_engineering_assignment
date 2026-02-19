@@ -1,15 +1,15 @@
 # Data Engineering Assignment Documentation
 
 ## 1. Assumptions
-- Salary range columns are numeric.
-- Posting date format is yyyy-MM-dd'T'HH:mm:ss.SSS.
-- Records with null salary were removed.
+- Salary range columns are numeric
+- Posting date format is yyyy-MM-dd'T'HH:mm:ss.SSS
+- Records with null salary were removed
 
 ## 2. Data Cleaning
-- Standardized column names.
-- Removed null salary rows.
-- Parsed posting_date into timestamp.
-- Created posting_year.
+- Standardized column names
+- Removed null salary rows
+- Parsed posting_date into timestamp
+- Created posting_year
 
 ## 3. Feature Engineering
 - avg_salary
